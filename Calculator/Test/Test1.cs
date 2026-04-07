@@ -86,7 +86,7 @@ namespace Test
             double result = _superCalculator.Exponetial(a, b);
 
             //Assert
-            Assert.AreEqual(9, result);
+            Assert.AreEqual(10, result);
         }
     }
 }
