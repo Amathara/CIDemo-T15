@@ -19,10 +19,10 @@ jobs:
         dotnet-version: 9.0
     
     - name: Restore dependencies
-      run: dotnet restore Calculator.sln
+      run: dotnet restore Calculator/Calculator.sln
     
     - name: Build
-      run: dotnet build Calculator.sln --no-restore 
+      run: dotnet build Calculator/Calculator.sln --no-restore 
     
     - name: Test
-      run: dotnet test Calculator.sln --no-build --verbosity normal
+      run: dotnet test Calculator/Calculator.sln --no-build --verbosity normal
