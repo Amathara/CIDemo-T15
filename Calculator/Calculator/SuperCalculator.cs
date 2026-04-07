@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    internal class SuperCalculator : ICalculator
+    public class SuperCalculator : ICalculator
     {
         public int Add(int a, int b)
         {
