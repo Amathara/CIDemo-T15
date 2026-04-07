@@ -74,5 +74,19 @@ namespace Test
             // Act & Assert
             Assert.ThrowsException<DivideByZeroException>(() => _superCalculator.Divide(a, b));
         }
+
+        [TestMethod]
+        public void Exponential()
+        {
+            // Arrange
+            int a = 3;
+            int b = 2;
+
+            //Act
+            double result = _superCalculator.Exponetial(a, b);
+
+            //Assert
+            Assert.AreEqual(9, result);
+        }
     }
 }

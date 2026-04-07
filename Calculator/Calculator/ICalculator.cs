@@ -17,5 +17,6 @@ namespace Calculator
 
         double Divide(int a, int b);
 
+        double Exponetial(double a, double b);
     }
 }

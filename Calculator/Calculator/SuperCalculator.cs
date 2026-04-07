@@ -18,6 +18,11 @@ namespace Calculator
             return a / b;
         }
 
+        public double Exponetial(double a, double b)
+        {
+            return Math.Pow(a,b);
+        }
+
         public int Multiply(int a, int b)
         {
             return a * b;
